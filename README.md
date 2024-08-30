@@ -105,6 +105,7 @@ To decrypt, use the INVERSE (opposite) of the last 3 rules, and the 1st as-is (d
 
 
 ## PROGRAM:
+```
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -241,7 +242,7 @@ printf("Cipher text: %s\n", str);
 
 return 0;
 }
-
+```
 
 ## OUTPUT:
 ![Screenshot 2024-08-30 135658](https://github.com/user-attachments/assets/506928e4-91a9-4b22-8d09-c26d374679f6)
@@ -280,6 +281,7 @@ The cipher can, be adapted to an alphabet with any number of letters. All arithm
 
 
 ## PROGRAM:
+```
 
 #include <stdio.h>
 #include <string.h>
@@ -370,7 +372,7 @@ int main() {
     return 0;
 }
 
-
+```
 ## OUTPUT:
 ![Screenshot 2024-08-30 141607](https://github.com/user-attachments/assets/ef11d3cb-c1d5-4d92-b6a7-ba27ff034379)
 
@@ -405,7 +407,7 @@ The Vigenere cipher is a method of encrypting alphabetic text by using a series 
 
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -449,7 +451,7 @@ int main() {
 
     return 0;
 }
-
+```
 ## OUTPUT:
 ![Screenshot 2024-08-30 142623](https://github.com/user-attachments/assets/9cc7d97e-726e-4faa-a806-0b06ea93b3e2)
 
@@ -482,7 +484,7 @@ ALGORITHM DESCRIPTION:
 In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 ## PROGRAM:
-
+```
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -535,7 +537,7 @@ for(j=0;j<len;j++)
 }
 printf("\n");
 }
-
+```
 ## OUTPUT:
 ![Screenshot 2024-08-30 143131](https://github.com/user-attachments/assets/08d9a60b-9463-4fd1-ac48-4a6b0a9aab55)
 

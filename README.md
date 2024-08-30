@@ -30,7 +30,7 @@ Implementation using C or pyhton code
 
 
 ## PROGRAM:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -58,7 +58,7 @@ scanf("%d", &key); // Read the key from the user
  
 caesarDecrypt(message, key); printf("Decrypted Message: %s", message); return 0;
 }
-
+```
 ## OUTPUT:
 ![Screenshot 2024-08-30 135338](https://github.com/user-attachments/assets/8840252f-0b21-430a-8606-b1ad7d7550ba)
 
